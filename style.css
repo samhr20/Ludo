@@ -1,0 +1,261 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* ludo container box */
+
+.container {
+    height: 690px;
+    width: 690px;
+    border: 2px solid black;
+    margin: 13px auto;
+}
+
+/* ludo container upper part */
+
+.upper-part {
+    height: 245px;
+    display: flex;
+}
+
+/* green box  */
+
+.upper-part-green-box {
+    height: 245px;
+    width: 245px;
+    background-color: green;
+}
+
+.green-box-pawns-box{
+    height: 165px;
+    width: 165px;
+    background-color: white;
+    margin: 40px 40px 40px 40px;
+    display: grid;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.green-box-2-pawns-division{
+   height: 40px;
+   width: 140px;
+   display: flex;
+   justify-content: space-around;
+}
+
+.green-box-pawns{
+    height: 40px;
+    width: 40px;
+    background-color: green;
+    border-radius: 50%;
+}
+
+/* uppper box middle part*/
+
+.upper-part-middle-box {
+    height: 245px;
+    width: 200px;
+    background-color: white;
+}
+
+
+.upper-part-middle-division{
+    height: 39.2px;
+    border: 1.5px solid black;
+    display: flex;
+}
+
+.upper-part-middle-division div{
+    height: 39px;
+    border: 1.5px solid black;
+    width: 66px ;
+}
+
+.red{
+    background-color: red;
+}
+
+/* red box */
+
+.upper-part-red-box {
+    height: 245px;
+    width: 245px;
+    background-color: red;
+}
+
+.red-box-pawns-box{
+    height: 165px;
+    width: 165px;
+    background-color: white;
+    margin: 40px 40px 40px 40px;
+    display: grid;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.red-box-2-pawns-division{
+   height: 40px;
+   width: 140px;
+   display: flex;
+   justify-content: space-around;
+}
+
+.red-box-pawns{
+    height: 40px;
+    width: 40px;
+    background-color: red;
+    border-radius: 50%;
+}
+/* ludo container middle part */
+
+.middle-part {
+    height: 200px;
+    display: flex;
+}
+
+/* middle part left box */
+
+.middle-part-left-box{
+    height: 245px;
+    width: 245px;
+    background-color: white;
+}
+
+.middle-part-left-box-division{
+    width: 245px;
+    height: 65.1px;
+    border: 1.5px solid black;
+    display: flex;
+}
+
+.middle-part-left-box-division div{
+   border: 1.5px solid black;
+   width: 39.8px;
+}
+
+.green{
+    background-color: green;
+}
+
+.middle-part-middle-box{
+    border-top: 106px solid red;
+    border-right: 101px solid blue;
+    border-bottom: 95px solid yellow;
+    border-left: 98px solid green;
+}
+
+.middle-part-right-box-division{
+    width: 245px;
+    height: 65.1px;
+    border: 1.5px solid black;
+    display: flex;
+}
+
+
+.middle-part-right-box-division div{
+    border: 1.5px solid black;
+    width: 39.8px;
+ }
+
+.blue{
+    background-color: blue;
+}
+
+/* ludo container lower part */
+
+.lower-part {
+    height: 245px;
+    display: flex;
+}
+
+
+/* yellow box  */
+
+.lower-part-yellow-box {
+    height: 245px;
+    width: 245px;
+    background-color: yellow;
+}
+
+.yellow-box-pawns-box{
+    height: 165px;
+    width: 165px;
+    background-color: white;
+    margin: 40px 40px 40px 40px;
+    display: grid;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.yellow-box-2-pawns-division{
+   height: 40px;
+   width: 140px;
+   display: flex;
+   justify-content: space-around;
+}
+
+.yellow-box-pawns{
+    height: 40px;
+    width: 40px;
+    background-color: yellow;
+    border-radius: 50%;
+}
+
+/* lower part middle box */
+
+.lower-part-middle-box {
+    height: 245px;
+    width: 200px;
+    background-color: white;
+}
+
+
+.lower-part-middle-division{
+    height: 39.1px;
+    border: 1.5px solid black;
+    display: flex;
+}
+
+.lower-part-middle-division div{
+    height: 39px;
+    border: 1.5px solid black;
+    width: 66px ;
+}
+
+
+.yellow{
+    background-color: yellow;
+}
+
+/* Blue box  */
+
+.lower-part-blue-box {
+    height: 245px;
+    width: 245px;
+    background-color: blue;
+}
+
+.blue-box-pawns-box{
+    height: 165px;
+    width: 165px;
+    background-color: white;
+    margin: 40px 40px 40px 40px;
+    display: grid;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.blue-box-2-pawns-division{
+   height: 40px;
+   width: 140px;
+   display: flex;
+   justify-content: space-around;
+}
+
+.blue-box-pawns{
+    height: 40px;
+    width: 40px;
+    background-color: blue;
+    border-radius: 50%;
+}
